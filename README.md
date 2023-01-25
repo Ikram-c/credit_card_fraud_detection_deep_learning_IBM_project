@@ -32,7 +32,13 @@ These hyperparemeters were used in various combinations with each other and were
 
 -***Decision Tree Classifier***
 
-The performance of the models were then assessed using their F1 score
+The performance of the models were then assessed using their F1 score with the top 3 models having an accuracy of:
+
+0.99 for the Sigmoid SGD MSE autoencoder
+0.96 for the Sigmoid SGD binarycrossentropy autoencoder
+0.96 for the tanh Adam MSE autoencoder
+
+(values have been rounded to 2 d.p)
 
 
 See Notebook for detailed breakdown.
